@@ -10,7 +10,8 @@ android {
     defaultConfig {
 //        applicationId "com.vn.build.excute"
         minSdk 24
-        targetSdk 34
+        targetSdk 33
+        compileSdk 32
         versionCode 1
         versionName "1.0"
 
@@ -31,8 +32,8 @@ android {
 
 dependencies {
 
-    implementation libs.appcompat
-    implementation libs.material
+//    implementation libs.appcompat
+//    implementation libs.material
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
