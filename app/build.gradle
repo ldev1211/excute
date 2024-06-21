@@ -7,7 +7,7 @@ android {
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.vn.build.excute"
+//        applicationId "com.vn.build.excute"
         minSdk 24
         targetSdk 34
         versionCode 1
